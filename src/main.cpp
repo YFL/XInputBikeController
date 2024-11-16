@@ -146,8 +146,8 @@ void setup()
 void loop()
 {
     if(compositeHID.isConnected()){
-        testButtons();
-        testPads();
+        //testButtons();
+        //testPads();
         testTriggers();
         testThumbsticks();
     }
